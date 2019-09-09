@@ -26,12 +26,24 @@ html {
   scroll-behavior: smooth;
 }
 
+@media only screen and (min-device-width : 768px) {
+  .text h2 {
+    padding-top: 20px;
+  }
+
+  img {
+    max-width: 60%;
+  }
+
+  .text h1 {
+   font-size: 58px;
+  }
+}
 
 img {
    max-width: 80%;
    padding-bottom: 40px;
  }
-
 
 
 .text {
@@ -81,19 +93,7 @@ a {
   max-width: 768px;
 }
 
-@media only screen and (min-device-width : 768px) {
-  .text h2 {
-    padding-top: 20px;
-  }
 
-  img {
-    max-width: 60%;
-  }
-
-  .text h1 {
-   font-size: 58px;
-  }
-}
 
 
 
