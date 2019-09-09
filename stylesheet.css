@@ -28,15 +28,14 @@ html {
 
 
 img {
-   max-width: 100%; 
-   max-height: 100%; 
+   max-width: 80%
  }
 
 
 
 .text {
   text-align: center;
-  position: relative;
+  /*position: relative;*/
 }
 
 .text h1 {
@@ -47,22 +46,34 @@ img {
 }
 
 .text h2 {
+  padding-top: 80px;
   font-family: 'hkgrotesk-regular', serif;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 16px;
+}
+
+.text h2::before {
+  content: "\2192  ";
 }
 
 a {
-  text-decoration: none;
-  color: #FF4E4E;;
+  text-decoration: underline;
+  /*color: #FF4E4E;*/
+  color: black;
   font-weight: bold;
   text-align: center;
 
 }
 
 .text-centre {
-  position: absolute;
+  /*position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);*/
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding: 10% 10% 10% 10%;
 }
