@@ -89,6 +89,10 @@ a {
   img {
     max-width: 60%;
   }
+
+  .text h1 {
+   font-size: 58px;
+  }
 }
 
 
