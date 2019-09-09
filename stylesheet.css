@@ -11,8 +11,8 @@
 
 @font-face {
   font-family: hkgrotesk-regular;
-  src: url(hkgrotesk-regular.woff);
-  font-weight: normal;
+  src: url(hkgrotesk-medium.woff);
+  font-weight: bolder;
 }
 
 
@@ -29,6 +29,7 @@ html {
 
 img {
    max-width: 80%
+   padding-bottom: 40px;
  }
 
 
@@ -46,10 +47,10 @@ img {
 }
 
 .text h2 {
-  padding-top: 80px;
+  padding-top: 60px;
   padding-bottom: 20px;
   font-family: 'hkgrotesk-regular', serif;
-  font-weight: normal;
+  font-weight: bolder;
   font-size: 16px;
 }
 
@@ -82,7 +83,11 @@ a {
 
 @media only screen and (min-device-width : 768px) {
   .text h2 {
-    padding-top: 40px;
+    padding-top: 20px;
+  }
+
+  img {
+    max-width: 60%;
   }
 }
 
