@@ -2,7 +2,7 @@
   background-color: #F4E1D6;
   padding: 0px;
   margin: 0 auto;
-  font-family: 'HKGrotesk', sans-serif;
+  font-family: 'hkgrotesk-regular', sans-serif;
   float: none;
   font-weight: normal;
   -webkit-font-smoothing: antialiased !important;
@@ -10,7 +10,7 @@
 }
 
 @font-face {
-  font-family: HKGrotesk;
+  font-family: hkgrotesk-regular;
   src: url(hkgrotesk-regular.woff);
   font-weight: normal;
 }
@@ -47,6 +47,7 @@ img {
 
 .text h2 {
   padding-top: 80px;
+  padding-bottom: 20px;
   font-family: 'hkgrotesk-regular', serif;
   font-weight: normal;
   font-size: 16px;
