@@ -2,7 +2,7 @@
   background-color: #F4E1D6;
   padding: 0px;
   margin: 0 auto;
-  font-family: 'hkgrotesk-regular', sans-serif;
+  font-family: 'HKGrotesk', sans-serif;
   float: none;
   font-weight: normal;
   -webkit-font-smoothing: antialiased !important;
@@ -10,8 +10,8 @@
 }
 
 @font-face {
-  font-family: NeueAlteGrotesk;
-  src: url(39BD6E_4_0.woff);
+  font-family: HKGrotesk;
+  src: url(hkgrotesk-regular.woff);
   font-weight: normal;
 }
 
