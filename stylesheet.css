@@ -86,15 +86,15 @@ a {
     padding-top: 20px;
   }
 
-  img {
-    max-width: 60%;
-  }
-
   .text h1 {
    font-size: 58px;
   }
 }
 
 
-
+@media only screen and (max-width: 480px) {
+  
+  .text h1 {
+    padding-top: 48px;
+  }
 
