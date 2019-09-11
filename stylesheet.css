@@ -43,6 +43,8 @@ img {
   font-weight: normal;
   font-size: 68px;
   margin: 0px;
+  overflow: hidden;
+  line-height: 1;
 }
 
 @keyframes reveal {
