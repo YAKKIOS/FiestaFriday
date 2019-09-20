@@ -6,6 +6,7 @@
   float: none;
   font-weight: normal;
   -webkit-font-smoothing: antialiased !important;
+  color: #353535;
 
 }
 
@@ -16,8 +17,8 @@
 }
 
 @font-face {
-  font-family: LinLibertine;
-  src: url(LinLibertine_DR.otf);
+  font-family: OPTICaslon;
+  src: url(OPTICaslonBold-Cond.otf);
   font-weight: normal;
 }
 
@@ -71,7 +72,7 @@ img {
 }
 
 .text h1 {
-  font-family: 'LinLibertine', serif;
+  font-family: 'OPTICaslon', serif;
   padding: auto;
   font-weight: normal;
   font-size: 68px;
