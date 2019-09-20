@@ -70,7 +70,8 @@ a {
     display: inline-block;
     color: #000;
     text-decoration: none;
-    line-height: 28px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
 }
 
 .btn::after {
@@ -124,6 +125,7 @@ a {
   img {
   max-width: 80%;
   }
+}
 
 
 
