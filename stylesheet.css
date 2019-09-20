@@ -22,7 +22,7 @@
 }*/
 
 
-@keyframes reveal {
+@-webkit-keyframes reveal {
   0% {
     transform: translate(0,100%);
   }
