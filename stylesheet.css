@@ -39,6 +39,7 @@ html {
 img {
    max-width: 60%;
    padding-bottom: 40px;
+   animation: reveal .500s;
  }
 
 .hero {
@@ -104,6 +105,7 @@ a {
     text-decoration: none;
     line-height: 26px;
     letter-spacing: 0.5px;
+    animation: reveal .500s;
 }
 
 .btn::after {
