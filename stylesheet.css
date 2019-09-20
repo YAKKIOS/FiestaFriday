@@ -1,5 +1,5 @@
  body {
-  background-color: #F4E1D6;
+  background-color: #FFEDD7;
   padding: 0px;
   margin: 0 auto;
   font-family: 'hkgrotesk-regular', sans-serif;
@@ -31,6 +31,15 @@ img {
    padding-bottom: 40px;
  }
 
+.hero {
+  background-image: url(Background 2.png);
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-attachment: fixed !important;
+  background-size: 100% !important;
+  background-position: center top !important;
+}
+
 
 .text {
   text-align: center;
@@ -49,7 +58,7 @@ img {
   padding-top: 60px;
   padding-bottom: 20px;
   font-family: 'hkgrotesk-regular', serif;
-  font-weight: bolder;
+  font-weight: ;
   font-size: 16px;
   margin: 0px;
 }
@@ -61,7 +70,7 @@ img {
 a {
   /*color: #FF4E4E;*/
   color: black;
-  font-weight: bold;
+  font-weight: normal;
   text-align: center;
 
 }
@@ -128,4 +137,32 @@ a {
 }
 
 
+.container {
+  padding: 100px 20px 0;
+  max-width: 960px;
+  margin: 0 auto;
+}
 
+h1 {
+  font-family: 'Marcellus', serif;
+  padding: auto;
+  font-weight: normal;
+  font-size: 68px;
+  margin: 0px;
+  overflow: hidden;
+  line-height: 1;
+}
+
+h1 span {
+  display: block;
+  animation: reveal .5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
+}
+
+@keyframes reveal {
+  0% {
+    transform: translate(0,100%);
+  }
+  100% {
+    transform: translate(0,0);
+  }
+}
