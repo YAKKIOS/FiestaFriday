@@ -1,4 +1,5 @@
 body {
+  background-color: #FFEDD7;
   padding: 0px;
   margin: 0 auto;
   font-family: 'hkgrotesk-regular', sans-serif;
@@ -6,30 +7,19 @@ body {
   font-weight: normal;
   -webkit-font-smoothing: antialiased !important;
   color: #353535;
-      background: url(background.png) no-repeat center center fixed, #FFEDD7;
+      /*background: url(background.png) no-repeat center center fixed, #FFEDD7;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;*/
 }
 
 .background {
 
 }
 
-.page-content {
-  max-width: 75%;
-  /*padding: 25% 20% 0% 20%;*/
-  overflow: hidden;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
 @font-face {
-  font-family: hkgrotesk-regular;
+  font-family: hkgrotesk-medium;
   src: url(hkgrotesk-medium.woff);
   font-weight: bold;
 }
@@ -56,13 +46,23 @@ body {
   }
 }
 
+@-webkit-keyframes reveal-two {
+  0% {
+    transform: translate(0,100%) linear;
+  }
+  100% {
+    transform: translate(0,0) linear;
+  }
+}
 
 html {
   scroll-behavior: smooth;
 }
 
 .logo img {
+  max-width: 120px;
   padding-top: 40px;
+  animation-delay: 500ms;
   animation: fadein 1s;
   margin-left: auto;
   margin-right: auto;
@@ -70,23 +70,35 @@ html {
   align-content: center;
 }
 
+.page-content {
+  max-width: 100%;
+  padding-top: 20%;
+  /*padding: 25% 20% 0% 20%;*/
+  /*overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);*/
+  text-align: center;
+  align-content: center;
+}
+
+.page-content h2 {
+  font-size: 18px;
+  margin-top: 40px;
+  font-weight: bolder;
+}
 
 .container {
   text-align: center;
   margin: 0 auto;
 }
 
-
-.text {
-  text-align: center;
-  /*position: relative;*/
-}
-
 .content-title h1 {
   font-family: 'OPTICaslon', serif;
   padding: auto;
   font-weight: normal;
-  font-size: 68px;
+  font-size: 98px;
   margin: 0px;
   overflow: hidden;
   line-height: 1.2;
@@ -115,7 +127,7 @@ html {
 a {
   /*color: #FF4E4E;*/
   color: black;
-  font-weight: bolder;
+  font-weight: ;
   text-align: center;
 }
 
@@ -141,12 +153,36 @@ a {
   transition: width .6s;
 }
 
+.details {
+  margin-left: 10%;
+  margin-top: 150px;
+  text-align: left;
+  max-width: 20%;
+  font-size: 10px;
+}
+
+.details h3 {
+  padding: 0px;
+  margin: 0px;
+  font-weight: bold;
+  color: #FF4E4E;
+  animation: reveal-two 1s;
+}
+
+.hero img {
+  padding-top: 100px;
+  max-width: 100%;
+  animation: fadein 2s;
+}
+
 .content-playlist {
-  margin-top: 300px;
+  margin-top: 100px;
+  font-family: 'OPTICaslon', serif;
 }
 
 .content-playlist h2 {
-  margin-left: 20%;
+  margin-left: 10%;
+  font-size: 38px;
 }
 
 .text-centre {
@@ -172,11 +208,75 @@ a {
 }
 
 
+#container{
+width: 80%
+font-size: 16px;
+margin: 100px 5% 100px 15%;
+text-decoration: none;
+}
+
+#container li {
+  text-decoration: none;
+  list-style: none;
+  padding-bottom: 30px;
+}
+
+#container_div1 {
+width: 20%;
+float: left;
+display: inline-block;
+text-align: right;
+padding-right: 5%;
+font-weight: normal;
+}
+
+#container_div1 li {
+  font-weight: normal;
+}
+
+
+#container_div2 {
+width: 75%;
+text-align: Left;
+display: inline-block;
+text-transform: uppercase;
+font-weight: bold;
+  font-size: 16px;
+}
+
+
 @media only screen and (max-width: 768px) {
 
   .content-title h2 {
     padding-top: 40px;
   }
+
+#container{
+width: 80%
+font-size: 16px;
+margin: 100px 5% 100px 10%;
+text-decoration: none;
+}
+
+#container_div1 {
+width: 5%;
+}
+
+
+#container_div2 {
+width: 90%;
+}
+
+.page-content h2 {
+  font-size: 16px;
+  margin-top: 40px;
+  font-weight: bolder;
+}
+
+  .page-content {
+  max-width: 100%;
+  padding-top: 30%;
+}
 
   .content-title h1 {
     font-size: 58px;
@@ -187,7 +287,7 @@ a {
 @media only screen and (max-width: 480px) {
 
   .content-title h1 {
-    font-size: 48px;
+    font-size: 58px;
   }
 
   img {
