@@ -143,7 +143,7 @@ a {
 
 .btn:hover::after {
   width: 0%;
-//transition: width .6s;
+  transition: width .6s;
 }
 
 .content-playlist {
@@ -191,7 +191,7 @@ a {
 
 @media only screen and (max-width: 480px) {
 
-  .text h1 {
+  .content-title h1 {
     font-size: 48px;
   }
 
