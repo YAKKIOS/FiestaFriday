@@ -1,13 +1,8 @@
-$(document).ready(function(){
-
-/*! Fades in page on load */
-$('body').css('display', 'none');
-$('body').fadeIn(1000);
-
-});
-
-
-
+ if( bottom_of_window > bottom_of_object ){
+            $(this).addClass('.background.png');
+       }
+        if( bottom_of_window < bottom_of_object ){
+            $(this).removeClass('.background');
 
 $(document).ready(function() {
     
@@ -15,7 +10,7 @@ $(document).ready(function() {
     $(window).scroll( function(){
     
         /* Check the location of each desired element */
-        $('.article, .text, #outter_charlie').each( function(i){
+        $('.background').each( function(i){
             
             var bottom_of_object = $(this).offset().top + $(this).outerHeight();
             var bottom_of_window = $(window).scrollTop() + $(window).height();
@@ -23,7 +18,7 @@ $(document).ready(function() {
             /* If the object is completely visible in the window, fade it it */
             if( bottom_of_window > bottom_of_object ){
                 
-                $(this).animate({'opacity':'1'},500);
+                $(this).animate({'opacity':'0'},500);
                     
             }
             

@@ -6,24 +6,26 @@ body {
   font-weight: normal;
   -webkit-font-smoothing: antialiased !important;
   color: #353535;
-  background: url(background.png) no-repeat center center fixed, #FFEDD7;
+      background: url(background.png) no-repeat center center fixed, #FFEDD7;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
+.background {
+
+}
+
 .page-content {
-  width: 75%;
+  max-width: 75%;
+  /*padding: 25% 20% 0% 20%;*/
+  overflow: hidden;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-}
-
-.content-playlist {
-  margin-top: 4rem;
 }
 
 @font-face {
@@ -65,8 +67,6 @@ img {
   animation: fadein 1s;
 }
 
-
-
 .hero {
   background-image: url(background.png);
   opacity: 1;
@@ -87,7 +87,7 @@ img {
   /*position: relative;*/
 }
 
-.text h1 {
+.content-title h1 {
   font-family: 'OPTICaslon', serif;
   padding: auto;
   font-weight: normal;
@@ -98,12 +98,12 @@ img {
   margin-bottom: 0px;
 }
 
-.text h1 span {
+.content-title h1 span {
   display: block;
   animation: reveal 1200ms;
 }
 
-.text h2 {
+.content-subtitle h2 {
   padding-top: 60px;
   padding-bottom: 20px;
   font-family: 'hkgrotesk-regular', serif;
@@ -113,7 +113,7 @@ img {
   animation: fadein 1s;
 }
 
-.text h2::before {
+.content-subtitle h2::before {
   content: "\2192  ";
 }
 
@@ -126,7 +126,7 @@ a {
 
 .btn {
   display: inline-block;
-  color: #353535#;
+  color: #353535;
   text-decoration: none;
   line-height: 26px;
   letter-spacing: 0.5px;
@@ -146,6 +146,13 @@ a {
 //transition: width .6s;
 }
 
+.content-playlist {
+  margin-top: 300px;
+}
+
+.content-playlist h2 {
+  margin-left: 20%;
+}
 
 .text-centre {
   /*position: absolute;
@@ -161,15 +168,6 @@ a {
   max-width: 768px;
 }
 
-.background {
-  background: url(background.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  overflow: hidden;
-  position: absolute;
-}
-
 .block-1 {
   min-height: 200px;
   position: absolute;
@@ -181,11 +179,11 @@ a {
 
 @media only screen and (max-width: 768px) {
 
-  .text h2 {
+  .content-title h2 {
     padding-top: 40px;
   }
 
-  .text h1 {
+  .content-title h1 {
     font-size: 58px;
   }
 }
