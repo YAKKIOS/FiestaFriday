@@ -61,20 +61,15 @@ html {
   scroll-behavior: smooth;
 }
 
-img {
-  max-width: 60%;
-  padding-bottom: 40px;
+.logo img {
+  padding-top: 40px;
   animation: fadein 1s;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  align-content: center;
 }
 
-.hero {
-  background-image: url(background.png);
-  opacity: 1;
-  background-repeat: no-repeat;
-  background-attachment: fixed !important;
-  background-size: 100% !important;
-  background-position: center top !important;
-}
 
 .container {
   text-align: center;
