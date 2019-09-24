@@ -126,12 +126,6 @@ html {
   content: "\2192  ";
 }
 
-a {
-  color: #FF4E4E;
-  font-weight: ;
-  text-align: center;
-}
-
 .btn {
   display: inline-block;
   color: #353535;
@@ -288,9 +282,127 @@ text-align: Left;
 display: inline-block;
 text-transform: uppercase;
 font-weight: bold;
-  font-size: 16px;
+font-size: 16px;
 }
 
+#container_div2 a {
+  text-decoration: none;
+  color: #353535;
+}
+
+.quote {
+  margin-top: 200px;
+  margin-left: 10%;
+  max-width: 335px;
+  margin-right: ;
+  opacity: 0;
+}
+
+.quote h1 {
+  font-size: 28px;
+  font-family: 'OPTICaslon', serif;
+}
+
+.quote h2 {
+  font-size: 16px;
+  font-family: 'hkgrotesk-regular', serif;
+  font-weight: bold;
+  color: #FF4E4E;
+}
+
+.quote p {
+  margin-top: 50px;
+  font-size: 16px;
+  font-family: 'hkgrotesk-regular', serif;
+  font-weight: ;
+}
+
+footer {
+   display: block;
+   bottom: 0;
+   width:100%; 
+   overflow: hidden;
+   float: left;
+   padding-left: 0;
+   margin-top: 50px;
+   /*border-top: 1px solid;
+   border-color: #737373;
+   /*background-color: #141414;*/
+   color: white;
+}
+
+.Footer_CTA {
+  width: 80%;
+  margin: 50px 5% 150px 10%;
+  align-content: left;
+  text-align: left;
+  max-width: 1400px;
+  color: black;
+  font-family: 'OPTICaslon';
+}
+
+.Footer_CTA h1 {
+    font-size: 28px;
+    line-height: 48px;
+}
+
+.Footer_CTA h1 a:hover {
+    text-decoration: underline;
+}
+
+
+footer a {
+    text-decoration: none;
+    color: #737373;
+}
+
+footer li {
+    font-size: 18px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+footer li a {
+  color: black;
+}
+
+footer a:hover {
+  color: #737373;
+  -webkit-transition: color 0.3s ease-out;
+ -moz-transition: color 0.3s ease-out;
+ -o-transition: color 0.3s ease-out;
+ -ms-transition: color 0.3s ease-out;
+ transition: color 0.3s ease-out;
+}
+
+footer p {
+  font-size: 18px;
+  font-weight: normal;
+  padding: 0px;
+  margin: 0px 0px 50px 0px;
+  color: #b1b1b1;
+}
+
+#container{
+width: 80%
+font-size: 18px;
+margin: 100px 5% 100px 5%;
+text-decoration: none;
+}
+
+#container_div3 {
+width: 25%;
+float: left;
+display: inline-block;
+}
+
+
+#container_div4{
+width: 30%;
+text-align: Left;
+display: inline-block;
+}
 
 @media only screen and (max-width: 768px) {
 
