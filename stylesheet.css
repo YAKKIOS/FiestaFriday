@@ -125,8 +125,7 @@ html {
 }
 
 a {
-  /*color: #FF4E4E;*/
-  color: black;
+  color: #FF4E4E;
   font-weight: ;
   text-align: center;
 }
@@ -151,6 +150,38 @@ a {
 .btn:hover::after {
   width: 0%;
   transition: width .6s;
+}
+
+.cta {
+  float: right;
+  margin-right: 10%;
+  margin-top: 50px;
+}
+
+.btn-cta {
+  float: right;
+  margin-right: 10%;
+  color: white;
+  text-decoration: none;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: #FF4E4E;;
+  border-style: none;
+  transform: rotate(-10deg);
+  transition: all .2s ease-in-out;
+}
+
+.btn-cta:hover {
+  transform: rotate(-10deg);
+  transform: scale(1.1);
+}
+
+.btn-cta a {
+  color: white;
+  text-decoration: none;
 }
 
 .details {
@@ -262,6 +293,9 @@ text-decoration: none;
 width: 5%;
 }
 
+.details {
+  display: none;
+}
 
 #container_div2 {
 width: 90%;
