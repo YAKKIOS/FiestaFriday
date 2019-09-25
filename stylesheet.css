@@ -113,11 +113,12 @@ html {
 }
 
 .content-subtitle h2 {
+  padding-top: 60px;
   padding-bottom: 20px;
   font-family: 'hkgrotesk-regular', serif;
   font-weight: bold;
   font-size: 16px;
-  margin-left: 30%;
+  margin: 0px;
 }
 
 .content-subtitle h2::before {
@@ -249,10 +250,10 @@ html {
 }
 
 
-#container {
+#container{
 width: 80%
 font-size: 16px;
-margin: 100px 5% 50px 15%;
+margin: 100px 5% 100px 15%;
 text-decoration: none;
 }
 
@@ -294,7 +295,7 @@ font-size: 16px;
 .quote {
   margin-top: 200px;
   margin-left: 10%;
-  max-width: 40%;
+  max-width: 335px;
   margin-right: ;
   opacity: 0;
 }
@@ -385,7 +386,7 @@ footer p {
   color: #b1b1b1;
 }
 
-#container-footer{
+#container{
 width: 80%
 font-size: 18px;
 margin: 100px 5% 100px 5%;
