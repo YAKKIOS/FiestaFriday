@@ -65,7 +65,7 @@ html {
   max-width: 120px;
   padding-top: 40px;
   animation-delay: 500ms;
-  animation: fadein 1s;
+  animation: fadein 1s ease-in-out;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -119,7 +119,6 @@ html {
   font-weight: bold;
   font-size: 16px;
   margin: 0px;
-  animation: fadein 1s;
 }
 
 .content-subtitle h2::before {
@@ -127,6 +126,7 @@ html {
 }
 
 .btn {
+  font-family: 'hkgrotesk-regular', serif;
   display: inline-block;
   color: #353535;
   text-decoration: none;
@@ -168,7 +168,7 @@ html {
   border-style: none;
   transform: rotate(-10deg);
   transition: all .2s ease-in-out;
-  animation: fadein 1s;
+  animation: fadein 1s ease-in-out;
 }
 
 .btn-cta:hover {
@@ -201,8 +201,9 @@ html {
 }
 
 .details h3 span {
-  opacity: 0;
+  opacity: ;
   display: block;
+  animation: fadein 1s ease-in-out;
   animation: show 1s 500ms;
 }
 
