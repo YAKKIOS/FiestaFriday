@@ -112,13 +112,17 @@ html {
   animation: reveal 1200ms;
 }
 
+.content-subtitle {
+  margin-bottom: 200px;
+}
+
+
 .content-subtitle h2 {
-  padding-top: 60px;
   padding-bottom: 20px;
   font-family: 'hkgrotesk-regular', serif;
   font-weight: bold;
   font-size: 16px;
-  margin: 0px;
+  margin-left: 30%;
 }
 
 .content-subtitle h2::before {
@@ -250,10 +254,10 @@ html {
 }
 
 
-#container{
+#container {
 width: 80%
 font-size: 16px;
-margin: 100px 5% 100px 15%;
+margin: 100px 5% 50px 15%;
 text-decoration: none;
 }
 
@@ -291,11 +295,10 @@ font-size: 16px;
   color: #353535;
 }
 
-
 .quote {
   margin-top: 200px;
   margin-left: 10%;
-  max-width: 335px;
+  max-width: 40%;
   margin-right: ;
   opacity: 0;
 }
@@ -386,7 +389,7 @@ footer p {
   color: #b1b1b1;
 }
 
-#container{
+#container-footer{
 width: 80%
 font-size: 18px;
 margin: 100px 5% 100px 5%;
@@ -413,19 +416,22 @@ display: inline-block;
   }
 
 #container{
-width: 100%
+width: 80%
 font-size: 16px;
 margin: 100px 5% 100px 10%;
 text-decoration: none;
 }
 
 #container_div1 {
-max-width: 5%;
-display: inline;
+width: 5%;
 }
 
 .details {
   display: none;
+}
+
+#container_div2 {
+width: 90%;
 }
 
 .page-content h2 {
@@ -455,4 +461,3 @@ display: inline;
     max-width: 80%;
   }
 }
-
