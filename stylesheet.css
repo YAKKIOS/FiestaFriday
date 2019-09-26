@@ -322,14 +322,17 @@ font-size: 16px;
  height: 100px;  
  overflow: hidden;
  position: relative;
+margin-bottom: 100px;
 }
 
 .scrolling-text h3 {
- font-size: 48px;
- font-family: 'OPTICaslon', serif;
-  color: ;
+  text-transform: uppercase;
+white-space: nowrap;
+ font-size: 68px;
+ font-family: 'hkgrotesk-regular', serif;
+  font-weight: bold;
  position: absolute;
- width: 100%;
+ width: auto;
  height: 100%;
  margin: 0;
  line-height: 80px;
@@ -339,9 +342,9 @@ font-size: 16px;
  -webkit-transform:translateX(100%);  
  transform:translateX(100%);
  /* Apply animation to this element */  
- -moz-animation: example1 12s linear infinite;
- -webkit-animation: example1 12s linear infinite;
- animation: example1 12s linear infinite;
+ -moz-animation: example1 15s linear infinite;
+ -webkit-animation: example1 15s linear infinite;
+ animation: example1 15s linear infinite;
 }
 /* Move it (define the animation) */
 @-moz-keyframes example1 {
