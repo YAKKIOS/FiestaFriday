@@ -553,6 +553,19 @@ width: 90%;
     font-size: 58px;
   }
 
+    .content-title h2 {
+    padding-top: 40px;
+  }
+
+  .content-subtitle h2 {
+    margin-left: 10%;
+  }
+
+  .content-shirt-block {
+    margin-left: 10%;
+  }
+
+
   img {
     max-width: 80%;
   }
