@@ -114,6 +114,7 @@ html {
 
 .content-subtitle {
   margin-bottom: 200px;
+  display: inherit;
 }
 
 
@@ -130,7 +131,7 @@ html {
 }
 
 .btn {
-  font-family: 'hkgrotesk-regular', serif;
+  font-family: 'hkgrotesk-regular', sans-serif;
   display: inline-block;
   color: #353535;
   text-decoration: none;
@@ -233,7 +234,7 @@ html {
 }
 
 .content-shirt {
-  margin-top: 100px;
+  margin-top: 200px;
   font-family: 'OPTICaslon', serif;
   opacity: 0;
 }
@@ -244,9 +245,21 @@ html {
 }
 
 .content-shirt-block {
-  float: left;
   margin-left: 30%;
-  margin-right: 10%
+  margin-right: 10%;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+.content-shirt-block h2 {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.content-shirt-block h1 {
+  font-size: 18px;
+  max-width: 80%;
 }
 
 .content-shirt-block img {
@@ -326,12 +339,13 @@ margin-bottom: 100px;
 }
 
 .scrolling-text h3 {
+  color: #FF4E4E;
   text-transform: uppercase;
 white-space: nowrap;
- font-size: 68px;
- font-family: 'hkgrotesk-regular', serif;
+ font-size: 98px;
+ font-family: 'hkgrotesk-regular', sans-serif;
   font-weight: bold;
- position: absolute;
+ position: ;
  width: auto;
  height: 100%;
  margin: 0;
@@ -342,9 +356,9 @@ white-space: nowrap;
  -webkit-transform:translateX(100%);  
  transform:translateX(100%);
  /* Apply animation to this element */  
- -moz-animation: example1 15s linear infinite;
- -webkit-animation: example1 15s linear infinite;
- animation: example1 15s linear infinite;
+ -moz-animation: example1 12s linear infinite;
+ -webkit-animation: example1 12s linear infinite;
+ animation: example1 12s linear infinite;
 }
 /* Move it (define the animation) */
 @-moz-keyframes example1 {
@@ -488,6 +502,14 @@ display: inline-block;
     padding-top: 40px;
   }
 
+  .content-subtitle h2 {
+    margin-left: 10%;
+  }
+
+  .content-shirt-block {
+    margin-left: 10%;
+  }
+
 #container{
 width: 80%
 font-size: 16px;
@@ -497,6 +519,7 @@ text-decoration: none;
 
 #container_div1 {
 width: 5%;
+text-align: left;
 }
 
 .details {
