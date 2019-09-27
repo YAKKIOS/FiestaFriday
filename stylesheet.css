@@ -262,8 +262,9 @@ html {
   max-width: 80%;
 }
 
-.content-shirt-block img {
-  max-width: 100%;
+.content-shirt-block-image {
+  opacity: 0;
+    max-width: 100%;
 }
 
 
@@ -360,6 +361,47 @@ white-space: nowrap;
  -webkit-animation: example1 12s linear infinite;
  animation: example1 12s linear infinite;
 }
+
+
+.btn-gif {
+  float: right;
+  margin-right: 10%;
+  color: black;
+  text-decoration: none;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: black;
+  border-style: black;
+  border-color: black;
+  transition: all .2s ease-in-out;
+  animation: fadein 1s ease-in-out;
+}
+
+.btn-gif:hover {
+  position: relative;
+  transform: rotate(-10deg);
+  transform: scale(1.1);
+}
+
+.btn-gif a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-gif:hover:after {
+    content: url(leonardo.gif); /* no need for qoutes */
+    display: block;
+    position: absolute;
+    left: 123px; /* change this value to one that suits you */
+    top: 1000px; /* change this value to one that suits you */
+}
+
+
+
 /* Move it (define the animation) */
 @-moz-keyframes example1 {
  0%   { -moz-transform: translateX(100%); }
