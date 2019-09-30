@@ -339,12 +339,12 @@ font-size: 16px;
 margin-bottom: 100px;
 }
 
-.scrolling-text h3 {
-  color: #FF4E4E;
-  text-transform: uppercase;
+.scrolling-text h1 {
+  color: #136F63;
+  text-transform: ;
 white-space: nowrap;
  font-size: 98px;
- font-family: 'hkgrotesk-regular', sans-serif;
+ font-family: 'OPTICaslon', serif;
   font-weight: bold;
  position: ;
  width: auto;
@@ -352,14 +352,39 @@ white-space: nowrap;
  margin: 0;
  line-height: 80px;
  text-align: center;
+
  /* Starting position */
  -moz-transform:translateX(100%);
  -webkit-transform:translateX(100%);  
  transform:translateX(100%);
+
  /* Apply animation to this element */  
- -moz-animation: example1 12s linear infinite;
- -webkit-animation: example1 12s linear infinite;
- animation: example1 12s linear infinite;
+ -moz-animation: example1 8s linear infinite;
+ -webkit-animation: example1 8s linear infinite;
+ animation: example1 8s linear infinite;
+}
+
+.scrolling-text-values {
+  margin-left: 10%;
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 80px;
+  }
+
+.scrolling-text-description {
+  margin-left: 10%;
+  max-width: 500px;
+  font-size: 16px;
+}
+
+.scrolling-text-description h2 {
+  font-size: 18px;
+  padding-bottom: 80px; 
+    font-weight: bold;
+}
+
+.scrolling-text-description p {
+  line-height: 24px;
 }
 
 
@@ -426,7 +451,7 @@ white-space: nowrap;
   margin-left: 10%;
   max-width: 40%;
   margin-right: ;
-  opacity: 0;
+  opacity: ;
 }
 
 .quote h1 {
