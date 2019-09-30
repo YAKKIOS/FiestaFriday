@@ -246,9 +246,9 @@ html {
 
 .content-shirt-block {
   margin-left: 30%;
-  margin-right: 10%;
   margin-top: 100px;
   margin-bottom: 80px;
+  max-width: 570px;
 }
 
 .content-shirt-block h2 {
@@ -343,7 +343,7 @@ font-size: 16px;
   color: #136F63;
   text-transform: ;
 white-space: nowrap;
- font-size: 98px;
+ font-size: 18px;
  font-family: 'OPTICaslon', serif;
   font-weight: bold;
  position: ;
@@ -368,7 +368,16 @@ white-space: nowrap;
   margin-left: 10%;
   font-size: 16px;
   font-weight: bold;
-  padding-bottom: 80px;
+  padding-bottom: 20px;
+  }
+
+.scrolling-text-values h1 {
+  font-size: 98px;
+  font-family: 'OPTICaslon', serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 1.2;
+  color: #FFAC55;
   }
 
 .scrolling-text-description {
@@ -387,6 +396,20 @@ white-space: nowrap;
   line-height: 24px;
 }
 
+.side-image-block {
+    width: 100%;
+    float: right;
+ padding-bottom: 100px;
+}
+
+.side-image {
+    right: 0px;
+    max-width: 505px;
+    position: relative;
+    display: block;
+    width: 100%;
+    float: right
+}
 
 .btn-gif {
   margin-left: 10%;
@@ -574,6 +597,10 @@ display: inline-block;
     margin-left: 10%;
   }
 
+  .scrolling-text-values h1 {
+    font-size: 58px;
+  }
+
 #container{
 width: 80%
 font-size: 16px;
@@ -615,6 +642,10 @@ width: 90%;
 
   .content-title h1 {
     font-size: 58px;
+  }
+
+  .scrolling-text-values h1 {
+    font-size: 48px;
   }
 
     .content-title h2 {
