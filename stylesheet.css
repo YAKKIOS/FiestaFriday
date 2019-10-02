@@ -365,9 +365,9 @@ white-space: nowrap;
  transform:translateX(100%);
 
  /* Apply animation to this element */  
- -moz-animation: example1 8s linear infinite;
- -webkit-animation: example1 8s linear infinite;
- animation: example1 8s linear infinite;
+ -moz-animation: example1 30s linear infinite;
+ -webkit-animation: example1 30s linear infinite;
+ animation: example1 30s linear infinite;
 }
 
 .scrolling-text-values {
