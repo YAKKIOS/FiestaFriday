@@ -19,8 +19,14 @@ body {
 }
 
 @font-face {
+  font-family: hkgrotesk-regular;
+  src: url(HKGrotesk-Regular);
+  font-weight: normal;
+}
+
+@font-face {
   font-family: hkgrotesk-medium;
-  src: url(hkgrotesk-medium.woff);
+  src: url(HKGrotesk-Medium.otf);
   font-weight: bold;
 }
 
@@ -29,7 +35,6 @@ body {
   src: url(OPTICaslonBold-Cond.otf);
   font-weight: normal;
 }
-
 
 @-webkit-keyframes fadein {
   0%   { opacity: 0; }
@@ -88,7 +93,7 @@ html {
 .page-content h2 {
   font-size: 16px;
   margin-top: 40px;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 .container {
@@ -137,6 +142,7 @@ html {
   text-decoration: none;
   line-height: 26px;
   letter-spacing: 0.5px;
+  font-weight: bold;
 }
 
 .btn::after {
@@ -242,6 +248,7 @@ html {
 .content-shirt h2 {
   margin-left: 10%;
   font-size:48px;
+      margin-right: 10%;
 }
 
 .content-shirt-block {
@@ -267,6 +274,7 @@ html {
   max-width: 80%;
   padding-bottom: 10px;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .content-shirt-block p {
@@ -365,7 +373,7 @@ white-space: nowrap;
  width: auto;
  height: 100%;
  margin: 0;
- line-height: 80px;
+ line-height: 100px;
  text-align: center;
 
  /* Starting position */
@@ -400,6 +408,7 @@ white-space: nowrap;
   margin-left: 10%;
   max-width: 500px;
   font-size: 16px;
+  margin-right: 20%;
 }
 
 .scrolling-text-description h2 {
@@ -601,6 +610,11 @@ text-align: Left;
 display: inline-block;
 }
 
+@media only screen and (max-width: 984px) {
+  .scrolling-text-values {
+    margin-right: 10%;
+  }
+
 @media only screen and (max-width: 768px) {
 
   .content-title h2 {
@@ -652,7 +666,7 @@ width: 90%;
 .page-content h2 {
   font-size: 16px;
   margin-top: 40px;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
   .page-content {

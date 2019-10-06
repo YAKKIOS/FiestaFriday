@@ -4,7 +4,7 @@ $(document).ready(function() {
     $(window).scroll( function(){
     
         /* Check the location of each desired element */
-        $('.content-playlist, .content-block, #container, .scrolling-text-values, .side-image-block, .content-shirt, .content-shirt-block').each( function(i){
+        $('.content-playlist, .content-block, #container, .scrolling-text-values, .side-image-block, .content-shirt, .content-shirt-block, .page-content h2').each( function(i){
             
             var bottom_of_object = $(this).offset().top + $(this).outerHeight();
             var bottom_of_window = $(window).scrollTop() + $(window).height();
