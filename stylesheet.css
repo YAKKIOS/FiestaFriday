@@ -561,6 +561,17 @@ white-space: nowrap;
   font-weight: ;
 }
 
+.hero-image {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.hero-image img {
+  width: 100%;
+}
+
+
+
 footer {
    display: block;
    bottom: 0;
