@@ -154,6 +154,7 @@ html {
 }
 
 .btn {
+  font-size: 16px;
   font-family: 'Inter', sans-serif;
   display: inline-block;
   color: #353535;
@@ -161,6 +162,7 @@ html {
   line-height: 26px;
   letter-spacing: 0.5px;
   font-weight: bolder;
+  text-transform: uppercase;
 }
 
 .btn::after {
@@ -566,12 +568,36 @@ white-space: nowrap;
   font-weight: ;
 }
 
-.hero-image {
+.block-hero-quote {
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.block-hero-quote h2 {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60%;
+  font-size: 48px;
+  font-family: 'OPTICaslon', serif;
+  line-height: 1.2;
+  color: #FFAC55;
+  }
+
+  .block-hero-quote p {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60%;
+}
+
+.block-hero {
   margin-left: 10%;
   margin-right: 10%;
 }
 
-.hero-image img {
+.block-hero img {
   width: 100%;
 }
 
@@ -579,69 +605,66 @@ white-space: nowrap;
 
 footer {
    display: block;
+   font-size: 16px;
    bottom: 0;
    width:100%; 
    overflow: hidden;
    float: left;
    padding-left: 0;
    margin-top: 0px;
+   margin-bottom: 200px;
    /*border-top: 1px solid;
    border-color: #737373;
    /*background-color: #141414;*/
-   color: white;
 }
 
-.Footer_CTA {
+.Footer-cta {
   width: 80%;
   margin: 0px 5% 150px 10%;
   align-content: left;
   text-align: left;
   color: black;
   font-size: 68px;
+  color: #353535;
 }
 
-.Footer_CTA h1 {
+.Footer-cta h2 {
+  font-size: 16px;
+}
+
+.Footer-cta h3 {
     font-size: 68px;
-    text-transform: uppercase;
-}
-
-.Footer_CTA h1 a:hover {
-    text-decoration: underline;
+    margin-bottom: 0px;
+    font-family: 'OPTICaslon', sans-serif;
 }
 
 
-footer a {
+.Footer-cta h2::before {
+  content: "\27F6  ";
+}
+
+#container-footer-div1 li::before {
+  content: "\27F6  ";
+}
+
+
+
+#container-footer-div1 p {
     text-decoration: none;
     color: #737373;
 }
 
-footer li {
-    font-size: 16px;
+
+#container-footer-div1 a {
+    text-decoration: none;
+    color: #737373;
+}
+
+#container-footer-div1 li {
+    font-size: 18px;
     text-decoration: none;
     list-style: none;
 }
-
-footer li a {
-  color: black;
-}
-
-footer a:hover {
-  color: #737373;
-  -webkit-transition: color 0.3s ease-out;
- -moz-transition: color 0.3s ease-out;
- -o-transition: color 0.3s ease-out;
- -ms-transition: color 0.3s ease-out;
- transition: color 0.3s ease-out;
-}
-
-footer p {
-  font-size: 16px;
-  font-weight: normal;
-  padding: 0px;
-  margin: 0px 0px 50px 0px;
-  color: #b1b1b1;
-}
-
 
 #container-footer{
 margin-left: 30%;
