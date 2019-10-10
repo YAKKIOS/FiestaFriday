@@ -14,10 +14,6 @@ body {
   background-size: cover;*/
 }
 
-.background {
-
-}
-
 /*@font-face {
   font-family: hkgrotesk-regular;
   src: url(HKGrotesk-Regular);
@@ -47,6 +43,15 @@ body {
   font-family: Inter;
   src: url(Inter-Medium.otf);
   font-weight: bolder;
+}
+
+::selection {
+  background: #353535;
+  color: #FFEDD7;
+}
+::-moz-selection {
+  background: #353535; 
+  color: #FFEDD7;
 }
 
 
