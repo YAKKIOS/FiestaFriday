@@ -652,7 +652,8 @@ footer {
 
 #container-footer-div1 p {
     text-decoration: none;
-    color: #737373;
+    color: #353535;
+    margin: 0 0 20px 0;
 }
 
 
@@ -665,6 +666,7 @@ footer {
     font-size: 18px;
     text-decoration: none;
     list-style: none;
+    margin-bottom: 10px;
 }
 
 #container-footer{
@@ -772,10 +774,6 @@ width: 90%;
   }
 
 
-  img {
-    max-width: 80%;
-  }
-}
 
 #padding-block-100 {
   height: 100px;
