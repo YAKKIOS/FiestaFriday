@@ -4,7 +4,7 @@ $(document).ready(function() {
     $(window).scroll( function(){
     
         /* Check the location of each desired element */
-        $('.content-playlist, .content-block, #container, .scrolling-text-values, .side-image-block, .content-shirt, .content-shirt-block, .page-content h2, .side-image-two-block').each( function(i){
+        $('.content-playlist, .content-block, .scrolling-text-values, .side-image-block, .content-shirt, .content-shirt-block, .page-content h2, .side-image-two-block').each( function(i){
             
             var bottom_of_object = $(this).offset().top + $(this).outerHeight();
             var bottom_of_window = $(window).scrollTop() + $(window).height();
@@ -28,7 +28,7 @@ $(document).ready(function() {
     $(window).scroll( function(){
     
         /* Check the location of each desired element */
-        $('.content-shirt-block-image').each( function(i){
+        $('.content-shirt-block-image, .img, #container').each( function(i){
             
             var bottom_of_object = $(this).offset().top + $(this).outerHeight();
             var bottom_of_window = $(window).scrollTop() + $(window).height();
