@@ -451,8 +451,9 @@ white-space: nowrap;
 
 .scrolling-text-background {
   margin-top: 150px;
-  background-color: #FFC88E;
-  color: #353535;
+  background-color: #FE9757;
+  /*FFC88E;*/
+  color: white;
 }
 
 .scrolling-text-description {
@@ -718,12 +719,16 @@ display: inline-block;
   }
 
   .scrolling-text-values h1 {
-    font-size: 58px;
+    font-size: 38px;
+  }
+
+  .content-playlist h2 {
+    font-size: 38px;
   }
 
 .block-hero-quote h2 {
   max-width: 100%;
-  font-size: 48px;
+  font-size: 38px;
   }
 
   .block-hero-quote p {
@@ -791,7 +796,7 @@ width: 90%;
   }
 
   .scrolling-text-values h1 {
-    font-size: 48px;
+    font-size: 38px;
   }
 
     .content-title h2 {
