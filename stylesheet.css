@@ -86,7 +86,7 @@ html {
 }
 
 .logo img {
-  max-width: 120px;
+  max-width: 150px;
   padding-top: 40px;
   animation-delay: 500ms;
   animation: fadein 1s ease-in-out;
