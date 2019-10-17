@@ -689,7 +689,7 @@ footer {
 
 .Footer-cta {
   width: 80%;
-  margin: 0px 5% 150px 10%;
+  margin: 0px 5% 20px 10%;
   align-content: left;
   text-align: left;
   color: black;
@@ -737,7 +737,7 @@ footer {
 }
 
 #container-footer {
-margin-left: 30%;
+margin-left: 10%;
 margin-right: 10%;
 max-width: 570px;
 float: left;
