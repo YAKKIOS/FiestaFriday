@@ -165,6 +165,10 @@ html {
   text-transform: uppercase;
 }
 
+.content-subtitle h2::before {
+  content: "\27F6  ";
+}
+
 .btn::after {
   content: '';
   display: block;
@@ -496,6 +500,7 @@ white-space: nowrap;
 .side-image-two-block {
     width: 100%;
     margin-top: 200px;
+    margin-bottom: 100px;
     opacity: 0;
 }
 
@@ -541,6 +546,18 @@ white-space: nowrap;
     float: left;
 }
 
+.cover-image {
+  opacity: 0;
+}
+
+ .cover-image-mobile {
+    display: none;
+    opacity: 0;
+  }
+
+ .cover-image-mobile {
+  width: 100%;
+ }
 
 
 /* Move it (define the animation) */
@@ -627,6 +644,14 @@ white-space: nowrap;
   margin-right: auto;
   margin-bottom: 100px;
   text-align: center;
+}
+
+.block-hero-quote-two h3 {
+  margin-top: 80px;
+}
+
+.block-hero-quote-two h3::before {
+  content: "\27F6  ";
 }
 
 .block-hero-quote-two h2 {
@@ -724,8 +749,20 @@ display: inline-block;
   .scrolling-text-values {
     margin-right: 10%;
   }
+.side-image{
+  max-width: 470px;
+ } 
+}
 
 @media only screen and (max-width: 768px) {
+
+  .cover-image-mobile {
+    display: block;
+  }
+
+.cover-image {
+    display: none;
+  }
 
   .content-title h2 {
     padding-top: 40px;
@@ -734,6 +771,12 @@ display: inline-block;
   .content-subtitle h2 {
     margin-left: 10%;
   }
+
+  .content-shirt h2 {
+    font-size: 38px;
+  }
+
+
 
   .content-shirt-block {
     margin-left: 10%;
@@ -757,6 +800,18 @@ display: inline-block;
   max-width: 100%;
 }
 
+.block-hero-two {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.side-image-two {
+  max-width: 235px;
+}
+
+.block-hero-quote-two h2 {
+  font-size: 38px;
+}
 
   .side-image-block {
 
