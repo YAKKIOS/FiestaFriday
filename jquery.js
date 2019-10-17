@@ -28,7 +28,7 @@ $(document).ready(function() {
     $(window).scroll( function(){
     
         /* Check the location of each desired element */
-        $('.content-shirt-block-image, .cover-image, #container, .cover-image-mobile').each( function(i){
+        $('.content-shirt-block-image, .cover-image, #container, .cover-image-mobile, .side-image-block').each( function(i){
             
             var bottom_of_object = $(this).offset().top + $(this).outerHeight();
             var bottom_of_window = $(window).scrollTop() + $(window).height();
