@@ -690,6 +690,11 @@ footer {
    /*background-color: #141414;*/
 }
 
+.footer h4 {
+  margin-left: 10%;
+  font-size: 16px;
+}
+
 .Footer-cta {
   width: 80%;
   margin: 0px 5% 20px 10%;
