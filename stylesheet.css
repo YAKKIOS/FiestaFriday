@@ -29,12 +29,14 @@ body {
 @font-face {
   font-family: OPTICaslon;
   src: url(OPTICaslonBold-Cond.otf);
+  src: url(opticaslonbold-cond-webfont.ttf) format('truetype');
   font-weight: normal;
 }
 
 @font-face {
   font-family: Inter;
   src: url(Inter-Regular.otf);
+  src: url(Inter-Regular.ttf) format('truetype');
   font-weight: normal;
 }
 
@@ -42,6 +44,7 @@ body {
 @font-face {
   font-family: Inter;
   src: url(Inter-Medium.otf);
+  src: url(Inter-Medium.ttf) format('truetype');
   font-weight: bolder;
 }
 
