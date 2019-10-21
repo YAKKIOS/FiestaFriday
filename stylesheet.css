@@ -28,8 +28,10 @@ body {
 
 @font-face {
   font-family: OPTICaslon;
-  src: url(OPTICaslonBold-Cond.otf);
-  src: url(opticaslonbold-cond-webfont.ttf) format('truetype');
+  src: url(./OPTICaslonBold-Cond.otf);
+  src: url(./opticaslonbold-cond.woff.woff) format('woff'); /* Pretty Modern Browsers */
+  src: url(./opticaslonbold-cond-webfont.ttf) format('truetype'); /* Safari, Android, iOS */
+  src: url(./opticaslonbold-cond-webfont.svg) format('svg'); /* Legacy iOS */
   font-weight: normal;
 }
 
@@ -37,10 +39,6 @@ body {
   font-family: Inter;
   src: url(Inter-Regular.otf);
   src: url(Inter-Regular.ttf) format('truetype');
-    url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
-       url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
-       url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
   font-weight: normal;
 }
 
