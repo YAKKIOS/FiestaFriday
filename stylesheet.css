@@ -59,7 +59,7 @@ body {
 
 
 @-webkit-keyframes fadein {
-  0%   { opacity: 0; }
+  0%   { opacity: 0; } 
   100% { opacity: 1; }
 }
 
@@ -750,6 +750,28 @@ margin-right: 10%;
 max-width: 570px;
 float: left;
 display: inline-block;
+}
+
+.credits {
+  padding-top: ;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-left: 10%;
+}
+
+.credits h2 {
+  padding-bottom: 20px;
+  margin: 0px;
+    font-size: 12px;
+}
+
+.credits p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.credits a {
+  text-decoration: none;
 }
 
 
