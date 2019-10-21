@@ -687,7 +687,7 @@ footer {
    margin-bottom: 200px;
    /*border-top: 1px solid;
    border-color: #737373;
-   /*background-color: #141414;*/
+   background-color: #141414;*/
 }
 
 .footer h4 {
@@ -702,7 +702,7 @@ footer {
   text-align: left;
   color: black;
   font-size: 68px;
-  color: #353535;
+  color: #FE9757;
 }
 
 .Footer-cta h2 {
@@ -729,7 +729,7 @@ footer {
 #container-footer-div1 p {
     text-decoration: none;
     color: #353535;
-    margin: 0 0 20px 0;
+    margin: 0 0 50px 0;
 }
 
 
@@ -738,7 +738,7 @@ footer {
 }
 
 #container-footer-div1 li {
-    font-size: 18px;
+    font-size: 16px;
     text-decoration: none;
     list-style: none;
     margin-bottom: 10px;
@@ -754,15 +754,16 @@ display: inline-block;
 
 .credits {
   padding-top: ;
-  font-size: 12px;
+  font-size: 14px;
   text-transform: uppercase;
   margin-left: 10%;
+  margin-bottom: 100px;
 }
 
 .credits h2 {
   padding-bottom: 20px;
   margin: 0px;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .credits p {
@@ -772,6 +773,7 @@ display: inline-block;
 
 .credits a {
   text-decoration: none;
+  color: #353535;
 }
 
 
